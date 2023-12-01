@@ -22,7 +22,7 @@ Body {
 
 .Nav {
   color: aliceblue;
-  font-size: 24px;
+  font-size: 46px;
 
   margin-bottom: 10px;
 }
@@ -48,6 +48,14 @@ Body {
   border-radius: 5px;
 
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.form button:hover{
+  background-color: rgb(0, 191, 255);
+  color: white;
+
+  scale: 1.1;
 }
 
 .listaDePosts {
@@ -65,13 +73,20 @@ Body {
 
 }
 
+.Span {
+  background-color: rgb(42, 42, 42);
+
+  padding:0px 5px;
+  border-radius: 5px;
+}
+
 
 .buttons {
   width: 180px;
   display: flex;
   justify-content: space-around;
 
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   margin-top: 15px;
 }
 

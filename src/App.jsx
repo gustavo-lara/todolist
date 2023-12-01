@@ -8,7 +8,7 @@ const App = () => {
     {
       id: Date.now(),
       owner: 'gustavolara',
-      content: 'Tarefa 1',
+      content: 'Tarefa 1'
     }
   ]);
   //const [posts, setPosts] = useState([...]); - Este é um estado que armazena a lista de tarefas. Cada tarefa é um objeto com id, owner e content.
@@ -72,7 +72,7 @@ const App = () => {
 
         {posts.map((post) => (
           <div key={post.id}>
-            <span
+            <span className='Span'
               contentEditable onBlur=
               {(e) => atualizaContentDoPost(post.id, e.target.textContent)}>
 
